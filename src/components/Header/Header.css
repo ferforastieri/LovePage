@@ -1,0 +1,39 @@
+/* src/components/Header/Header.css */
+
+/* Importa uma fonte romântica */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f8e8f5; /* Cor de fundo suave e romântica */
+  border-bottom: 2px solid #e1b8c3; /* Borda inferior com cor romântica */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 10px 20px; /* Padding para o espaçamento interno */
+  display: flex;
+  justify-content: center; /* Alinha os itens ao centro horizontalmente */
+  font-family: 'Great Vibes', cursive; /* Aplica a fonte romântica */
+  z-index: 1000; /* Garante que a barra fique sobre outros conteúdos */
+}
+
+.header nav {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os links */
+}
+
+.header a {
+  color: #d05d81; /* Cor dos links */
+  text-decoration: none;
+  padding: 8px 12px; /* Ajusta o padding dos links */
+  font-size: 16px; /* Ajusta o tamanho da fonte */
+  font-weight: normal; /* Ajusta o peso da fonte */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header a:hover {
+  background-color: #e1b8c3; /* Cor de fundo dos links ao passar o mouse */
+  color: #fff; /* Cor dos textos dos links ao passar o mouse */
+}

@@ -1,0 +1,51 @@
+/* src/pages/Home/Home.css */
+
+/* Importa a mesma fonte romântica usada no Header */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.home-content {
+  padding-top: 60px; /* Espaço para a barra de navegação */
+  padding-bottom: 60px; /* Espaço para o footer */
+  text-align: center; /* Centraliza o texto */
+  font-family: 'Great Vibes', cursive; /* Fonte romântica */
+  background: #fef6f9; /* Cor de fundo suave */
+  color: #d05d81; /* Cor do texto */
+}
+
+.home-content h1 {
+  font-size: 3rem; /* Tamanho do título maior */
+  margin-bottom: 30px; /* Espaço abaixo do título */
+}
+
+.home-content .love-quote {
+  background: #f8e8f5; /* Cor de fundo do bloco de citação */
+  border: 1px solid #e1b8c3; /* Borda ao redor do bloco */
+  border-radius: 15px; /* Borda arredondada */
+  padding: 30px; /* Espaço interno do bloco */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 800px; /* Largura máxima do bloco */
+  margin: 0 auto; /* Centraliza o bloco */
+}
+
+.home-content .section {
+  margin: 40px 0; /* Espaço entre seções maior */
+}
+
+.home-content .section h2 {
+  font-size: 2.5rem; /* Tamanho do subtítulo maior */
+  color: #d05d81; /* Cor do texto */
+  margin-bottom: 20px; /* Espaço abaixo do subtítulo */
+}
+
+.home-content .section img {
+  max-width: 80%; /* Imagens um pouco menores */
+  border-radius: 15px; /* Bordas arredondadas nas imagens */
+  margin: 20px 0; /* Espaço acima e abaixo das imagens */
+}
+
+.home-content .section p {
+  font-size: 1.5rem; /* Tamanho da fonte dos parágrafos maior */
+  color: #6c4f6d; /* Cor do texto dos parágrafos */
+  margin: 0 auto; /* Centraliza o texto */
+  max-width: 800px; /* Largura máxima dos parágrafos */
+}

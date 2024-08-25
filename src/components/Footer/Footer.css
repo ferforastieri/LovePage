@@ -1,0 +1,24 @@
+/* src/components/Footer/Footer.css */
+
+/* Importa a mesma fonte romântica usada no Header */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f8e8f5; /* Cor de fundo suave e romântica */
+  border-top: 2px solid #e1b8c3; /* Borda superior com cor romântica */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 10px 20px; /* Padding para o espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  font-family: 'Great Vibes', cursive; /* Aplica a fonte romântica */
+  z-index: 1000; /* Garante que o footer fique sobre outros conteúdos */
+}
+
+.footer p {
+  color: #d05d81; /* Cor do texto */
+  margin: 0; /* Remove a margem padrão */
+  font-size: 16px; /* Ajusta o tamanho da fonte */
+}
